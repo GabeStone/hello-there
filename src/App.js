@@ -1,19 +1,6 @@
 import logo from './logo.svg';
 import grevious from '../src/grevious.png';
 import './App.css';
-//import { isFocusable } from '@testing-library/user-event/dist/utils';
-
-/*
-function isLogo() {
-  let src;
-  if (grievousHello) {
-    src = grevious;
-  } else if (grievousGoodbye) {
-    src = logo;
-  }
-  return src;
-}
-*/
 
 function grievousHello() {
   const general = document.getElementById('general');
@@ -38,9 +25,6 @@ function App() {
         </p>
         <a
           className="App-link"
-          /*href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"*/
         >
           Hello <span id="dot">•</span> there!
         </a>
