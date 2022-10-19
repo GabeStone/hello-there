@@ -23,11 +23,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <p
           className="App-link"
         >
           Hello <span id="dot">•</span> there!
-        </a>
+        </p>
         <p onMouseOver={grievousHello} onMouseOut={grievousGoodbye} id="general">General Kenobi</p>
       </header>
     </div>
