@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import grevious from '../src/grevious.png';
 import './App.css';
 
